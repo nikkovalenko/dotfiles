@@ -49,6 +49,8 @@ Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-commentary'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
@@ -128,9 +130,12 @@ colorscheme gruvbox
 map <c-n> :NERDTreeToggle<cr>
 let g:NERDTreeMinimalUI = 1
 
-nnoremap <tab> :bnext<cr>
-nnoremap <s-tab> :bprevious<cr>
-nnoremap <f5> :buffers<cr>:buffer<space>
+" fzf 
+
+nnoremap <leader>; :Buffers<cr>
+nnoremap <leader>f :Files<cr>
+
+let g:fzf_preview_window = 'right:70%'
 
 " ========================================================
 "   functions
