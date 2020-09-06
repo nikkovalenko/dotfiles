@@ -1,0 +1,13 @@
+window:
+  startup_mode: Fullscreen
+font:
+  size: 18.0
+  use_thin_strokes: true
+shell:
+ program: /bin/zsh
+ args:
+   - --login
+key_bindings:
+  - { key: Left,  mods: Alt, chars: "\x1bb" }
+  - { key: Right, mods: Alt, chars: "\x1bf" }
+  - { key: Key3,  mods: Alt, chars: "#"     }
