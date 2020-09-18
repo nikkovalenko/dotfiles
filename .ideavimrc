@@ -1,0 +1,46 @@
+set number
+set relativenumber 
+
+set incsearch
+set ignorecase
+set smartcase
+nnoremap <silent> n nzz
+nnoremap <silent> N Nzz
+nnoremap <silent> * *zz
+nnoremap <silent> # #zz
+nnoremap <silent> g* g*zz
+
+let mapleader = "\<Space>"
+
+set scrolloff=5
+
+inoremap jk <esc>
+inoremap kj <esc>
+
+vnoremap jk <esc>
+vnoremap kj <esc>
+
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+inoremap <up> <nop>
+
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+nnoremap <up> <nop>
+
+vnoremap <down> <nop>
+vnoremap <left> <nop>
+vnoremap <right> <nop>
+vnoremap <up> <nop>
+
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+
+map H ^
+map L $
+
+nnoremap <leader>ln :set rnu!<cr>
