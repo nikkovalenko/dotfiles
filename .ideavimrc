@@ -44,3 +44,12 @@ map H ^
 map L $
 
 nnoremap <leader>ln :set rnu!<cr>
+
+nnoremap <leader>; :action RecentFiles<cr>
+nnoremap <leader>u :action FindUsages<cr>
+
+nnoremap <c-o> :action Back<cr>
+nnoremap <c-i> :action Forward<cr>
+
+nnoremap gd <esc>:action GotoDeclaration<cr>
+nnoremap gi <esc>:action GotoImplementation<cr>
