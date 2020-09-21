@@ -55,6 +55,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'OmniSharp/omnisharp-vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
+Plug 'voldikss/vim-floaterm'
 
 call plug#end()
 
@@ -167,6 +168,14 @@ endfunction
 
 autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
+
+" floaterm
+
+let g:floaterm_keymap_new    = '<f7>'
+let g:floaterm_keymap_prev   = '<f8>'
+let g:floaterm_keymap_next   = '<f9>'
+let g:floaterm_keymap_toggle = '<f12>'
+let g:floaterm_title         = '$1/$2'
 
 " ========================================================
 "   functions
