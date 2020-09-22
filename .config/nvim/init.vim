@@ -56,6 +56,7 @@ Plug 'OmniSharp/omnisharp-vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'voldikss/vim-floaterm'
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
