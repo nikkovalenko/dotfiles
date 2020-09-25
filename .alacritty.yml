@@ -8,6 +8,8 @@ shell:
  args:
    - --login
 key_bindings:
-  - { key: Left,  mods: Alt, chars: "\x1bb" }
-  - { key: Right, mods: Alt, chars: "\x1bf" }
-  - { key: Key3,  mods: Alt, chars: "#"     }
+  - { key: H,    mods: Control, chars: "\x1bb"   }
+  - { key: L,    mods: Control, chars: "\x1bf"   }
+  - { key: K,    mods: Control, chars: "\x1b[A"  }
+  - { key: J,    mods: Control, chars: "\x1b[B"  }
+  - { key: Key3, mods: Alt,     chars: "#"       }
