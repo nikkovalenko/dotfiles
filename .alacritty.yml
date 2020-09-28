@@ -1,15 +1,14 @@
 window:
   startup_mode: Fullscreen
+  padding:
+    x: 3
+    y: 3
 font:
   size: 18.0
   use_thin_strokes: true
 shell:
  program: /bin/zsh
  args:
-   - --login
+ - -l
 key_bindings:
-  - { key: H,    mods: Control, chars: "\x1bb"   }
-  - { key: L,    mods: Control, chars: "\x1bf"   }
-  - { key: K,    mods: Control, chars: "\x1b[A"  }
-  - { key: J,    mods: Control, chars: "\x1b[B"  }
-  - { key: Key3, mods: Alt,     chars: "#"       }
+  - { key: Key3,     mods: Alt, chars: "#"     }
