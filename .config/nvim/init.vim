@@ -1,6 +1,10 @@
 set number
 set relativenumber 
 
+if (has("termguicolors"))
+ set termguicolors
+endif
+
 set expandtab
 set tabstop=4
 set shiftwidth=4
@@ -126,10 +130,10 @@ let g:lightline = {
 " gruvbox
 
 let g:gruvbox_bold = '0'
+let g:gruvbox_termcolors = 16
 let g:gruvbox_contrast_dark = 'hard'
 
 colorscheme gruvbox
-
 
 " nerd tree
 
