@@ -20,11 +20,13 @@ export EDITOR=nvim
 bindkey '^R' history-incremental-search-backward
 bindkey '^P' up-history
 bindkey '^N' down-history
+
 bindkey '^A' beginning-of-line
 bindkey '^E' end-of-line
-bindkey '^F' forward-char
-bindkey '^B' backward-char
-bindkey '^D' delete-char
-bindkey '^K' kill-line
+
+bindkey '^W' forward-word
+bindkey '^B' backward-word
+
+bindkey '^X' delete-char
+bindkey '^D' kill-line
 bindkey '^U' kill-whole-line
-bindkey '^W' kill-word 
