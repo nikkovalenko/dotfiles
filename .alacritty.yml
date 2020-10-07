@@ -6,7 +6,7 @@ window:
     columns: 120
     lines: 35
 font:
-  size: 18.0
+  size: 17.0
   use_thin_strokes: true
 shell:
  program: /bin/zsh
