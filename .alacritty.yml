@@ -8,6 +8,8 @@ window:
 font:
   size: 17.0
   use_thin_strokes: true
+  bold:
+    style: Regular
 shell:
  program: /bin/zsh
  args:
