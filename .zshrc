@@ -6,7 +6,7 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
 autoload -U colors && colors
-PS1="%{$fg[green]%}%n@%m %{$fg[blue]%}%1~ %{$reset_color%}%% "
+PS1="%{$fg[green]%}%1~ %{$fg[blue]%}❯% %{$fg[yellow]%}❯% %{$fg[red]%}❯%  %{$reset_color%}"
 
 alias ls="ls -al"
 alias mv="mv -i"
