@@ -61,6 +61,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'voldikss/vim-floaterm'
 Plug 'tpope/vim-surround'
+Plug 'itchyny/vim-gitbranch'
 
 call plug#end()
 
