@@ -50,7 +50,6 @@ au BufEnter * if &buftype == 'terminal' | :startinsert | endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'itchyny/lightline.vim'
-Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-commentary'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -61,9 +60,13 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'voldikss/vim-floaterm'
 Plug 'tpope/vim-surround'
+Plug 'chriskempson/base16-vim'
+Plug 'mike-hearn/base16-vim-lightline'
 Plug 'itchyny/vim-gitbranch'
 
 call plug#end()
+
+colorscheme base16-tomorrow-night-eighties
 
 " ========================================================
 "   keyboard shortcuts
@@ -125,16 +128,14 @@ nnoremap <leader>ln :set rnu!<cr>
 " lightline
 
 let g:lightline = {
-      \ 'colorscheme': 'gruvbox',
+      \ 'colorscheme': 'base16_eighties',
+      \ 'active': {
+      \   'right': [['gitbranch']]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'gitbranch#name'
+      \ },
       \ }
-
-" gruvbox
-
-let g:gruvbox_bold = '0'
-let g:gruvbox_termcolors = 16
-let g:gruvbox_contrast_dark = 'hard'
-
-colorscheme gruvbox
 
 " nerd tree
 
