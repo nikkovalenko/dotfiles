@@ -1,6 +1,8 @@
 set number
 set relativenumber 
 
+set timeoutlen=150
+
 if (has("termguicolors"))
  set termguicolors
 endif
