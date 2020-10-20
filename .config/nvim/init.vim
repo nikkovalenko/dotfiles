@@ -28,7 +28,6 @@ nnoremap <silent> # #zz
 nnoremap <silent> g* g*zz
 
 set noshowmode
-set cmdheight=2
 
 set hidden
 
