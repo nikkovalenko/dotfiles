@@ -58,3 +58,5 @@ nnoremap gi <esc>:action GotoImplementation<cr>
 
 nnoremap <leader>d :action Debug<cr>
 nnoremap <leader>r :action Run<cr>
+nnoremap <leader>b :action BuildCurrentProject<cr>
+nnoremap <leader>s :action Stop<cr>
