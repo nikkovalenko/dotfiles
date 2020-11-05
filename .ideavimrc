@@ -62,3 +62,4 @@ nnoremap <leader>b :action BuildCurrentProject<cr>
 nnoremap <leader>s :action Stop<cr>
 
 nnoremap <leader>t :action ActivateTerminalToolWindow<cr>
+nnoremap <leader>a :action ShowIntentionActions<cr>
