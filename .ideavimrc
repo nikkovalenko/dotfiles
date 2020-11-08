@@ -63,3 +63,8 @@ nnoremap <leader>s :action Stop<cr>
 
 nnoremap <leader>t :action ActivateTerminalToolWindow<cr>
 nnoremap <leader>a :action ShowIntentionActions<cr>
+
+nnoremap <leader>j :action StepOver<cr>
+nnoremap <leader>l :action StepInto<cr>
+nnoremap <leader>h :action StepOut<cr>
+nnoremap <leader>k :action Resume<cr>
