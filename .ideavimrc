@@ -1,6 +1,9 @@
 set number
 set relativenumber 
 
+set visualbell
+set noerrorbells
+
 set incsearch
 set ignorecase
 set smartcase
